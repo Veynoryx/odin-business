@@ -1,28 +1,33 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    gap: 30px;
 }
+
+
+
 
 .header {
     background-color: #F5E6D3;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 50px 0 50px;
+    padding-left: 95px;
+    padding-right: 120px;
+    flex: 1;
+    flex-shrink: 0;
 }
 
 
-img {
+.logo {
     height: 80px;
     width: auto;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-
 }
+
 
 ul {
     list-style: none;
@@ -40,3 +45,88 @@ a {
     font-size: 18px;
     color: #2C1E1A; 
 }
+
+.hero {
+    background-color: #F5E6D3;
+    padding: 30px 120px 100px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.hero-text {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.hero-image {
+    height: 200px;
+    width: auto;
+    display: flex;
+    border-radius: 40px;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: 900;
+    color: #3E2723;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    font-size: 18px;
+    display: flex;
+    color: #6F4E37;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.menu-btn {
+    font-size: 18px;
+    background-color: #A47148;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6A3F2B;
+}
+.secondary {
+    background-color: #FAF3EB;
+    padding: 200px;
+}
+
+.quote {
+    background-color: #EED9C4;
+    padding: 200px;
+}
+
+.call-to-action {
+    background-color: #FAF3EB;
+    padding: 150px;
+}
+
+.footer {
+    background-color: #2C1E1A;
+    padding: 40px;
+    color: #F8EFE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
