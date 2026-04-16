@@ -203,6 +203,8 @@ h2 {
     background-color: #EED9C4;
     padding: 100px 0;
     font-style: italic; 
+    display: flex;
+    justify-content: center;
 }
 
 .coffee {
