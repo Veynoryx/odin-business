@@ -11,7 +11,7 @@
 }
 
 .header .container {
-    padding: 0;
+    padding: 0 16px;
 }
 /*  HEADER/NAV SECTION */ 
 
@@ -43,6 +43,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    flex-shrink: 1;
 }
 
 a {
